@@ -1,5 +1,6 @@
 boto3
 transformers
+accelerate
 langchain
 torch
 streamlit
