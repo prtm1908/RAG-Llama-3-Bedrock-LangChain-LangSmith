@@ -1,5 +1,4 @@
 boto3
-json
 transformers
 langchain
 torch
