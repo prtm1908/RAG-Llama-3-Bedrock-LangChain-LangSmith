@@ -82,6 +82,7 @@ def get_answer_from_kb(query: str, context:str, llm):
     Answer the user question based on the context provided below
     Context :{context}
     Question: {query}
+    Do not give an answer to the question if it can't be formed from the provided context. Make sure to not make anything up on your own.
 <|eot_id|>
 <|start_header_id|>
     assistant
